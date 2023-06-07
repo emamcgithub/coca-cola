@@ -4,15 +4,21 @@
     <head>
         <title>TechShop</title>
         <meta charset="UTF-8">
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header> <h1> TechShop</h1> </header>
-        <nav>
-        <a href="ejemplo5.html"> &triangleleft;</a>
-        <a href="index.html"> Home </a>
-        <a href="ejemplo3.html"> &triangleright;</a>
+        <header class="header">
+            <nav class="nav">
+                <a class="nav-link logo" href="home.html"> TechShop </a>
+            <ul class="nav-menu">
+                <li class="item"><a class="nav-link menu-link" href="ubicacion.html"> &triangleleft;</a></li>
+                <li class="item"><a class="nav-link menu-link" href="paginaOficial.html"> &triangleright;</a></li>
+                <li class="item"><a class="nav-link menu-link" href="audios.html">Audios</a></li>
+                <li class="item"><a class="nav-link menu-link" href="formulario.html">Formulario</a></li>
+                <li class="item"><a class="nav-link menu-link" href="videos.html">Videos</a></li>
+            </ul>
         </nav>
+            </header>
         
         <aside>  <h2>Videos</h2>
                  <hr>
@@ -20,11 +26,8 @@
     
         <section>
             <article>
-                <img src="img/torpedo.jpg" alt=""/>
-                <video width="320" height="240" controls autoplay muted>
-                    <source src="videos/torpedo.mp4" type="video/mp4">
-                    Your browser does not support the <code>video</code> tag.
-                </video>
+                <h5>Ver un video Youtube</h5>
+               <iframe width="640" height="360" src="https://www.youtube.com/embed/S2nBBMbjS8w" title="Watch the 2012 Coke commercial: &quot;Catch&quot; featuring NE_Bear | Coca-Cola #Commercials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </article>
         </section>
         
