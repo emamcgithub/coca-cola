@@ -2,39 +2,31 @@
 <!-- Esto es un comentario -->
 <html>
     <head>
-        <title>TechShop</title>
+        <title>Coca-Cola Costa Rica</title>
         <meta charset="UTF-8">
         <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
-    
+    <body>
     <header class="header">
             <nav class="nav">
-                <a class="nav-link logo" href="home.html"> TechShop </a>
+                <a class="nav-link logo" href="home.html"> Coca-Cola </a>
             <ul class="nav-menu">
-                <li class="item"><a class="nav-link menu-link" href="ubicacion.html"> &triangleleft;</a></li>
-                <li class="item"><a class="nav-link menu-link" href="paginaOficial.html"> &triangleright;</a></li>
+                <li class="item"><a class="nav-link menu-link" href="ubicacion.html">Ubicacion</a></li>
+                <li class="item"><a class="nav-link menu-link" href="paginaOficial.html">Sitio Oficial</a></li>
                 <li class="item"><a class="nav-link menu-link" href="audios.html">Audios</a></li>
-                <li class="item"><a class="nav-link menu-link" href="formulario.html">Formulario</a></li>
+                <li class="item"><a class="nav-link menu-link" href="empleo.html">Empleo</a></li>
                 <li class="item"><a class="nav-link menu-link" href="videos.html">Videos</a></li>
             </ul>
         </nav>
-    </header>
+        </header>
     
-    <body>
-        <header> <h1> TechShop</h1> </header>
-        <nav>
-        <a href="ejemplo5.html"> &triangleleft;</a>
-        <a href="index.html"> Home </a>
-        <a href="ejemplo3.html"> &triangleright;</a>
-        </nav> 
-        
         <aside>  <h2>Formulario</h2>
                  <hr>
-                 <h3> Uso de formularios en una pagina </h3> </aside>
-    
+                 <h3 class="a"> Ingrese su informacion Personal</h3><br/></aside>
         <section>  
             <article> 
-                <form action="/usuarios/registro" method="POST">
+                <form action="/usuarios/registro" method="POST" class="a">
                     Usuario: <input type="text" name="username" value="" size="20" /><br/>
                     Contraseña: <input type="password" name="password" value="" size="20" /><br/>
                     Nombre: <input type="text" name="name" value="" size="20" /><br/>
@@ -45,7 +37,6 @@
             </article>
         </section>
         
-        <footer> <p> Derechos Reservados &COPY; 2023</p> </footer>
-        
+        <footer class="pie"> <p> Derechos Reservados &COPY; 2023</p> </footer>
     </body>
 </html>
